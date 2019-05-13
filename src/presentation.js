@@ -49,18 +49,57 @@ export default class Presentation extends React.Component {
           <div><GoToAction slide={"green"} bgColor="green">Green Slides</GoToAction></div>
           <div><GoToAction slide={"blue"} bgColor="blue">Blue Slides</GoToAction></div>
         </Slide>
-        <Slide id="yellow" bgColor="yellow"><Text>Yellow Slides</Text></Slide>
-        <Slide bgColor="yellow"><Text>Yellow 1</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="yellow"><Text>Yellow 2</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="yellow"><Text>Yellow 3</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide id="green" bgColor="green"><Text>Green Slides</Text></Slide>
-        <Slide bgColor="green"><Text>Green 1</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="green"><Text>Green 2</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="green"><Text>Green 3</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide id="blue" bgColor="blue"><Text>Blue Slides</Text></Slide>
-        <Slide bgColor="blue"><Text>Blue 1</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="blue"><Text>Blue 2</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
-        <Slide bgColor="blue"><Text>Blue 3</Text><GoToAction slide="toc">Table of Contents</GoToAction></Slide>
+
+        <Slide id="yellow" bgColor="yellow">
+          <Text>Yellow Slides</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="yellow">
+          <Text>Yellow 1</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="yellow">
+          <Text>Yellow 2</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="yellow">
+          <Text>Yellow 3</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+
+        <Slide id="green" bgColor="green">
+          <Text>Green Slides</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="green">
+          <Text>Green 1</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="green">
+          <Text>Green 2</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="green">
+          <Text>Green 3</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        
+        <Slide id="blue" bgColor="blue">
+          <Text>Blue Slides</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="blue">
+          <Text>Blue 1</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="blue">
+          <Text>Blue 2</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
+        <Slide bgColor="blue">
+          <Text>Blue 3</Text>
+          <GoToAction slide="toc">Table of Contents</GoToAction>
+        </Slide>
       </Deck>
     );
   }
